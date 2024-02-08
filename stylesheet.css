@@ -1,0 +1,85 @@
+/*Body CSS moves the text to the right by 30 px pretty sure 
+this is wrong though */
+body {
+margin-right:30px ;
+}
+/* Horizontal line is set to be cut off on both left and 
+right ends */
+hr {
+	clear:center;
+	weight:bold;
+	margin-left:20px;
+	margin-right:20px;
+}
+
+h1 {
+	clear:right;
+}
+
+/* Header 2 is set to be moved away from the left by 20 pixels*/
+h2{
+	clear:right;
+	margin-left:20px;
+}
+
+/* class h4 label is used for the labels of the services 
+	 offered and the labeling of the events section */
+.h4-label{
+	font-size:20px;
+	margin-top:0;
+	text-align:center;
+	border-top: 1px solid black;
+	border-bottom:1px solid #969696;
+	background-color:#F5E163;
+}
+/* paragraph text is set to be positioned a specific way within the 
+	 areas that it is placed. */
+p {
+	
+	margin-top:20px;
+	margin-bottom:20px;
+	text-align:center;
+	font-size:15px;
+	color:black;
+}
+
+.Events-paragraph{
+	clear: right;
+
+}
+/* class price is created to make the sizing and coloring of the price information 
+   stand out when placed next ot the "per person " class */
+.price{
+	font-size:18px;
+	font-weight:bold;
+	color:green;
+	
+}
+/* class per-person is created to differentiate how many people can 
+	 participate in a service when placed under the description text and 
+	 placed next to the left of the pricing */
+.per-person{
+	font-size:15px;
+	color:grey;
+	font-size:normal;
+	
+}
+/* img is specified to have certain dimensions for the services cards */
+img {
+  width: 280px;
+  height:150px;
+  background-image:url();
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: no-repeat;
+  text-align:center;
+  margin:0;
+  padding:0;
+}
+img.events {
+  width: 315px;
+  height:150px;
+  background-image:url();
+  background-size: cover; 
+  background-position: center center;
+  background-repeat: n
